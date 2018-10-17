@@ -1,0 +1,23 @@
+.cy-nav {
+    height: 100px;
+    background-color: darkgray;
+    color: white;
+}
+
+.cy-section {
+    margin-bottom: 30px;
+}
+
+.cy-section-header-letter {
+    font-weight: bold;
+    margin-right:10px;
+}
+
+.form-row {
+    margin-bottom:10px;
+}
+
+.cy-list-number {
+    font-weight: bold;
+    margin-right: 10px;
+}
