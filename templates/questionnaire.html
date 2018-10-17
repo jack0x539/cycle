@@ -1,0 +1,202 @@
+{%extends "master.html"%}
+{%block content%}
+<div>
+    <h1>Outdoor Health Questionaire</h1>
+</div>
+<div>
+    <form>
+        <div class="cy-section">
+            <div class="row">
+                <div class="col-sm">
+                    <label>Name of Scheme</label>
+                    <input type="text" class="form-control" placeholder="Scheme" />
+                </div>
+                <div class="col-sm">
+                    <label>Name of Activity</label>
+                    <input type="text" class="form-control" placeholder="Activity" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="cy-section">
+            <h3><span class="cy-section-header-letter">A</span>Participant Details</h3>
+            <div class="form-row">
+                <div class="col-sm">
+                    <label>Forename</label>
+                    <input type="text" class="form-control" placeholder="e.g. John" />
+                </div>
+                <div class="col-sm">
+                    <label>Surname</label>
+                    <input type="text" class="form-control" placeholder="e.g. Smith" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm">
+                    <label>Address</label>
+                    <input type="text" class="form-control" placeholder="e.g. 4 Steamward Close" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="e.g. Liverpool" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="e.g. Merseyside" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm">
+                    <label>Postcode</label>
+                    <input type="text" class="form-control" placeholder="e.g. L5 9TD" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm">
+                    <label>Telephone Number</label>
+                    <input type="text" class="form-control" placeholder="e.g. 07812675551" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm">
+                    <label>E-Mail Address</label>
+                    <input type="text" class="form-control" placeholder="e.g. john.smith@examplemail.com" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm">
+                    <label>Emergency Contact Name</label>
+                    <input type="text" class="form-control" placeholder="e.g. Lesley Smith" />
+                </div>
+                <div class="col-sm">
+                    <label>Emergency Contact Number</label>
+                    <input type="text" class="form-control" placeholder="e.g. 0151 2315551" />
+                </div>
+            </div>
+        </div>
+
+        <div class="cy-section">
+            <h3><span class="cy-section-header-letter">B</span>Health Screening</h3>
+            <p>For most people, physical activity does not pose a hazard. The questions below have been designed to identify the small number of people for whom it would be wise to have medical advice before starting:</p>
+            <div class="form-row">
+                <div class="col-sm">
+                    <span class="cy-list-number">1</span>Has your doctor ever said that you have a heart condition?
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="1" />
+                        <label>Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="0" />
+                        <label>No</label>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <span class="cy-list-number">2</span>Do you feel pain in your chest when you perform physical activity?
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="1" />
+                        <label>Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="0" />
+                        <label>No</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm">
+                    <span class="cy-list-number">3</span>Do you ever lose balance due to dizziness, or lose consciousness?
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="1" />
+                        <label>Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="0" />
+                        <label>No</label>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <span class="cy-list-number">4</span>In the past month, have you had pain in your chest when <strong>NOT</strong> performing physical activity?
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="1" />
+                        <label>Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="0" />
+                        <label>No</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-sm">
+                    <span class="cy-list-number">5</span>Do you have a bone or joint problem that could be made worse by a change in your physical activity?
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="1" />
+                        <label>Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="0" />
+                        <label>No</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cy-section">
+            <h3>Declaration</h3>
+            <p>
+                I understand that if I have answered ‘Yes’ to one or more of the above questions, I should seek medical advice before attending a cycling programme. I agree to tell the cycle leaders if there is a change in my medical condition. I understand that this information will be shared with other cycle leaders and that I cycle at my own risk.
+            </p>
+            <p>SIGN DATE</p>
+            <p>To make the case for funding for further projects, please help us by answering the following questions:</p>
+            <div class="form-row">
+                <div class="col-sm">
+                    <span class="cy-list-number">6</span>Have you been diagnosed by your doctor or health professional with any of the five following medical conditions?
+                    <div class="form-check">
+                        <input type="checkbox" value="1" />
+                        <label>Heart disease</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" value="1" />
+                        <label>High blood pressure</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" value="1" />
+                        <label>COPD (Emphysema and Chronic Bronchitis)</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" value="1" />
+                        <label>Diabetes</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" value="1" />
+                        <label>Asthma</label>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <span class="cy-list-number">7</span>Do you have a long-standing (i.e. for more than 12 months and likely to continue) illness, condition or disability which affects (or limits) your day to day activities?
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="1" />
+                        <label>Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="0" />
+                        <label>No</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="radioHeartConditions" value="2" />
+                        <label>Prefer not to say</label>
+                    </div>
+                    <div>
+                        <p>If yes, please give brief details:</p>
+                        <textarea></textarea>
+                    </div>
+                </div>
+            </div>
+            <p><strong>Please advise the ride leader if you have any other conditions you feel they might need to know of.</strong></p>
+        </div>
+        
+        <h3><span class="cy-section-header-letter">C</span>About You</h3>
+    </form>
+</div>
+
+{%endblock%}
