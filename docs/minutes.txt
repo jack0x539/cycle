@@ -1,0 +1,49 @@
+Cycling Projects - 31/10/2018
+
+Issues with current system
+- bad data on "new" clients
+- age range, when really DOB is needed, for reports and dynamicness!
+
+-record weather conditions
+
+-want to see something by february
+-directly run at 25 out of 60 wheels for all centres, want all of them and everyone to use the same DB!
+-need to collect up volenteer activity and hours
+-tot up income, could be fees or donation
+-ability to tie donations to events as this wouldnt be counted against fee income
+-fee can be different for events and locations, can be waived per participant, donations can be made to the event;
+ sometimes people are affiliated with an organisation who will be invoiced instead of the participant paying on the day
+
+ -report on new participant, be it new to the authority, or the system or the activity type
+ 
+ -record notes against people
+ -record equipment used, default to unselected maybe
+ 
+ - person types - staff, voulenteer, participant, carers
+ - voulenteer hour override per event
+ - voulenteer type unskilled, skilled and professional
+ - person type is per event, but with a deault perhaps
+ 
+-event types 
+	- peddle-away
+	- wheels for all
+	
+- streamline OHQ
+- onus on participant to say that they are healthy enough, not the voulenteer
+- have to record careers as well as particpants and staff
+
+- register interest in event when you fill in the OHQ, include location, date, notes? 
+- potential to list running events per centre selected
+
+-know the types of cycles available at each location, including condition? (this is a bigger thing, maybe leave for now)
+
+- website requires permissions, must be at activity type and location granularity
+
+- look into taking payments for events
+- same for donations?
+
+- ability to generate invoices for centres
+
+- try wizard data entry for OHQ on mobile?
+- how much effort for an app version? does anyone know apple development?
+#

@@ -1,0 +1,28 @@
+{% extends "master.html" %}
+{% block content %}
+<div>
+    <h1>Event Roles</h1>
+</div>
+<div>
+    <form method="POST">
+        <div class="row">
+            <div class="col-sm form-group">
+                <label for="name">Name</label>
+                <input class="form-control" type="text" name="name" id="name" value="{{name}}" disabled/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm form-group">
+                <label for="description">Description</label>
+                <input class="form-control" type="text" name="description" id="description" value="{{description}}" disabled/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm form-group">
+                <a href="/eventroles/{{id}}" class="btn btn-info"><i class="fas fa-ban"></i> Cancel</a>
+                <button type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Confirm Delete</button>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

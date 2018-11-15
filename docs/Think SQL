@@ -1,0 +1,73 @@
+User
+    Id
+    Username
+    Forename
+    Surname
+    EmailAddress
+    PrimaryRoleId
+
+Role
+    Id
+    Name            "Voulenteer", "Staff", "Carer", "Participant"
+    Description
+
+ChargeType
+    Id
+    Name            "Paid", "Donation"
+
+EventType
+    Id
+    Name            "Wheels for All", "Pedal Away"
+    Description
+    ChargeTypeId
+
+Location
+    Id
+    Name
+    Description
+    Address1
+    Address2
+    Address3
+    County
+    Postcode
+    ContactName
+    ContactEmailAddress
+    ContactPhoneNumber1
+    ContactPhoneNumber2
+
+Event
+    Id
+    Date
+    LocationId
+    ConditionsId
+    ParticipationCost
+    ChargeTypeId
+    ConditionsId
+
+EventDonations
+    Id
+    Date
+    EventId
+    UserId
+    Amount
+    Description
+
+Conditions          //NOTE(Jack): Should this be one-to-many instead?
+    Id
+    Name            "Windy", "Sunny", "Cloudy", "Rainy"
+    Description
+
+Participation
+    Id
+    EventId
+    RoleId
+    UserId
+    PartnershipId
+
+Partnership
+    Id
+    Name
+    Description
+    
+
+    

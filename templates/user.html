@@ -1,0 +1,45 @@
+{% extends "master.html" %}
+{% block content %}
+<div>
+    <h1>Users</h1>
+</div>
+<div>
+    <form method="POST">
+        <div class="row">
+            <div class="col-sm form-group">
+                <label for="username">Username</label>
+                <input class="form-control" type="text" name="username" id="username" value="{{username}}"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm form-group">
+                <label for="forename">Forename</label>
+                <input class="form-control" type="text" name="forename" id="forename" value="{{forename}}"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm form-group">
+                <label for="surname">Surname</label>
+                <input class="form-control" type="text" name="surname" id="surname" value="{{surname}}"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm form-group">
+                <label for="emailaddress">Email Address</label>
+                <input class="form-control" type="text" name="emailaddress" id="emailaddress" value="{{emailaddress}}"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm form-group">
+                <label for="dob">Date of Birth</label>
+                <input class="form-control" type="text" name="dob" id="dob" value="{{dob}}"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm form-group">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

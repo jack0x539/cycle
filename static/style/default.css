@@ -4,6 +4,11 @@
     color: white;
 }
 
+.cy-top-container {
+    padding: 0 !important;
+    margin-bottom: 20px;
+}
+
 .cy-section {
     margin-bottom: 30px;
 }
@@ -20,4 +25,8 @@
 .cy-list-number {
     font-weight: bold;
     margin-right: 10px;
+}
+
+.cy-input {
+    margin-bottom: 10px;
 }

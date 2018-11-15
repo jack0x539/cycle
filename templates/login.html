@@ -1,0 +1,17 @@
+{% extends "master.html" %}
+{% block content %}
+    <div class="d-flex flex-column w-100 justify-content-center">
+        <input class="cy-input form-control" type="text" name="username" placeholder="Username" />
+        <input class="cy-input form-control" type="password" name="password" placeholder="Password" />
+        <input class="cy-input form-control btn btn-primary" type="submit" value="Login" />
+        <h6 style="text-align: center; margin:10px 0;">
+            Login Using an External Provider
+        </h6>
+        <button class="cy-input form-control btn btn-info" type="submit">
+            <span style="width: 60px; display:inline-block; text-align: left;"></span> <i class="fab fa-google"></i>
+        </button>
+        <button class="cy-input form-control btn btn-info" type="submit">
+            <span style="width: 60px; display:inline-block; text-align: left;"> </span> <i class="fab fa-facebook"></i>
+        </button>
+    </div>
+{% endblock %}
