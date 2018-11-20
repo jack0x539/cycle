@@ -1,9 +1,2 @@
-from api.user import User
-from api.address import Address
-from api.charge_type import ChargeType
-from api.event_location import EventLocation
-from api.event_role import EventRole
-from api.event_type import EventType
-#from api.partnership import Partnership
-from api.weather_condition import WeatherCondition
-from api.mysql_api_context import MySqlApiContext
+from api import context
+from api.models import User, Address, EventRole

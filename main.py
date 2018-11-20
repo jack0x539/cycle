@@ -3,7 +3,7 @@ from api import MySqlApiContext as ApiContext
 import configparser as config
 
 conf = config.ConfigParser()
-conf.read("local/app.config")
+conf.read("app.config")
 
 api = ApiContext("127.0.0.1", "cycle", conf["database"]["username"], conf["database"]["password"])
 app = Flask(__name__)
